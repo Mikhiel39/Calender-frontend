@@ -13,8 +13,8 @@ const Login = () => {
   const [error, setError] = useState("");
 
   const DEFAULT_CREDENTIALS = {
-    admin: { username: "admin", password: "admin123" },
-    user: { username: "user", password: "user123" },
+    admin: { username: "admin", password: "admin@123" },
+    user: { username: "company", password: "company@123" },
   };
 
   useEffect(() => {
@@ -37,7 +37,7 @@ const Login = () => {
       username === DEFAULT_CREDENTIALS.user.username &&
       password === DEFAULT_CREDENTIALS.user.password
     ) {
-      return "user";
+      return "company";
     }
     return null;
   };
