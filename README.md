@@ -1,8 +1,34 @@
-# React + Vite
+# React-based Calendar Application for Tracking Professional Communications
+## Objective
+The goal of this application is to help maintain accurate records of professional communications with various companies. The tool aims to facilitate timely follow-ups and consistent communication, enabling administrators to manage company data, communication schedules, and tracking of interactions.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Features
+### 1) Admin Module: Manage companies and communication methods.
+### 2) User Module: View and manage communication tasks.
 
-Currently, two official plugins are available:
+## Setup and Deployment
+### Prerequisites:
+#### 1) Node.js (v16.x or higher)
+#### 2) npm
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Steps to Set Up
+1. Clone this repo:
+
+    ```bash
+    git clone https://github.com/Mikhiel39/Calender-frontend.git
+    ```
+2. Install packages:
+
+    ```bash
+    cd Calender-frontend
+    ```
+    
+    ```bash
+    npm install
+    ```
+    
+3. Run the application using the below command
+
+    ```bash
+    npm run dev
+    ```
